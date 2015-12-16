@@ -29,6 +29,9 @@
 		      <descriptorRefs>
 		        <descriptorRef>jar-with-dependencies</descriptorRef>
 		      </descriptorRefs>
+			   <includes>
+                       <include>**/*Test.*</include>
+                    </includes>
 		      <archive>
 		        <manifest>
 		          <mainClass>com.github.vitalliuss.helloci.App</mainClass>
